@@ -1,2 +1,12 @@
 # Tmax.library
-Spring boot APP for a test.
+
+In order to make this project works properly, you will have to follow those steps.
+
+# 1) Have MYSQL installed, you can configurate your DB connection on a .ENV file.
+      You can also follow the default configuration that is.
+      spring.datasource.url=${MYSQL_URL:jdbc:mysql://localhost:3306/library_api}
+      spring.datasource.username=${MYSQL_USERNAME:root}
+      spring.datasource.password=${MYSQL_PASSWORD:root}
+# 2) Make sure you have sdk 21 in your computer.
+
+# 3) Execute the LibraryApplication file, that is the initializer of the project.
