@@ -7,6 +7,7 @@ In order to make this project works properly, you will have to follow those step
       spring.datasource.url=${MYSQL_URL:jdbc:mysql://localhost:3306/library_api}
       spring.datasource.username=${MYSQL_USERNAME:root}
       spring.datasource.password=${MYSQL_PASSWORD:root}
-# 2) Make sure you have sdk 21 in your computer.
+
+# 2) Configurate the JWT_SECRET on your .env file if you must.
 
 # 3) Execute the LibraryApplication file, that is the initializer of the project.
