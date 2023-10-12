@@ -8,6 +8,6 @@ In order to make this project works properly, you will have to follow those step
       spring.datasource.username=${MYSQL_USERNAME:root}
       spring.datasource.password=${MYSQL_PASSWORD:root}
 
-# 2) Configurate the JWT_SECRET on your .env file if you must.
+# 2) Configurate the JWT_SECRET on your .env file if you want.
 
 # 3) Execute the LibraryApplication file, that is the initializer of the project.
